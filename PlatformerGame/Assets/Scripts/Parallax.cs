@@ -1,49 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
+using Unity.Mathematics;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class ParallaxEffect : MonoBehaviour
+public class Parallax : MonoBehaviour
 {
-    [SerializeField]
-    public float moveSpeed;
-    [SerializeField]
-    public bool scrollLeft;
+    public GameObject cam;
+    private float length, startpos;
+    public float speed;
 
-    private float singleTexturedWidth;
-
-    void Start()
+    public void Start()
     {
-        SetupTexture();
-        if(scrollLeft)
+        startpos = transform.position.x;
+        length = GetComponent<SpriteRenderer>().bounds.size.x;
+    }
+
+    public void FixedUpdate()
+    {
+        float temp = (cam.transform.position.x * (1 - speed));
+        float dist = (cam.transform.position.x * speed);
+
+        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
+
+        if(temp > startpos + length)
         {
-            moveSpeed = -moveSpeed;
+            startpos += length;
         }
-    }
-
-    void SetupTexture()
-    {
-        Sprite sprite = GetComponent<SpriteRenderer>().sprite;
-        singleTexturedWidth = sprite.texture.width / sprite.pixelsPerUnit;
-    }
-
-    void Scroll()
-    {
-        float delta = moveSpeed * Time.deltaTime;
-        transform.position += new Vector3(delta, 0f, 0f);
-    }
-
-    void CheckReset()
-    {
-        if( (Mathf.Abs(transform.position.x) - singleTexturedWidth) > 0 )
+        else if(temp < startpos - length)
         {
-            transform.position = new Vector3(0f, transform.position.y, transform.position.z);
+            startpos -= length;
         }
-    }
-
-
-    void Update()
-    {
-        Scroll();
-        CheckReset();
     }
 }
