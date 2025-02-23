@@ -1,7 +1,4 @@
-using Unity.Mathematics;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Parallax : MonoBehaviour
 {
