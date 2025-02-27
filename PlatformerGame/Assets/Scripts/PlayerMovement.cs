@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,12 +6,15 @@ public class PlayerMovement : MonoBehaviour
 {
     InputAction moveAction;
     InputAction jump;
-    public float speed = 5;
+    public float speed = 3;
+    public float maxSpeed = 8;
     private SpriteRenderer sprite;
     private Animator animator;
     private bool isGrounded;
     private Rigidbody2D rb;
     public float jumpForce = 5f;
+    private Coroutine accelerationCoroutine;
+    private float idleTimer = 0f;
 
     void Start()
     {
@@ -28,6 +32,34 @@ public class PlayerMovement : MonoBehaviour
         bool isMoving = moveValue.x != 0 || moveValue.y != 0;
         animator.SetBool("isRunning", isMoving);
         transform.position += movement;
+
+        if (isMoving)
+        {
+            if(idleTimer > 0)
+            {
+                idleTimer = 0;
+            }
+            if(accelerationCoroutine == null)
+            {
+                accelerationCoroutine = StartCoroutine(Acceleration(2, 2));
+            }
+        }
+        else
+        {
+            idleTimer += Time.deltaTime;
+
+            if(idleTimer >= 0.1f)
+            {
+                if(accelerationCoroutine != null)
+                {
+                    StopCoroutine(accelerationCoroutine);
+                    accelerationCoroutine = null;
+                }
+                speed = 3;
+                idleTimer = 0f;
+            }
+        }
+
 
         FlipSprit(moveValue.x);
 
@@ -61,5 +93,30 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = true;
         }    
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
+    }
+
+    public IEnumerator Acceleration(float factorSpeed, float duration)
+    {
+        float startSpeed = speed;
+        float targetSpeed = Mathf.Min(startSpeed * factorSpeed, maxSpeed);
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
+        {
+            speed = Mathf.Lerp(startSpeed, targetSpeed, elapsedTime / duration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        speed = targetSpeed;
+        accelerationCoroutine = null;
     }
 }
