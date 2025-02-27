@@ -14,7 +14,7 @@ public class CameraBehavior : MonoBehaviour
     {
         if(target != null)
         {
-            cam.transform.position = new Vector3(target.transform.position.x, target.transform.position.y, -10);
+            cam.transform.position = new Vector3(target.transform.position.x, target.transform.position.y + 1, -10);
         }
     }
 }
