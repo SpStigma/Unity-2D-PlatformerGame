@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
     InputAction moveAction;
     InputAction jump;
     public float speed = 3;
@@ -15,6 +16,13 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 5f;
     private Coroutine accelerationCoroutine;
     private float idleTimer = 0f;
+    public bool isMoving;
+    public Vector2 moveValue;
+
+    public void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -27,9 +35,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        Vector2 moveValue = moveAction.ReadValue<Vector2>();
+        moveValue = moveAction.ReadValue<Vector2>();
         Vector3 movement = new Vector3(moveValue.x, 0, 0) * speed * Time.deltaTime;
-        bool isMoving = moveValue.x != 0 || moveValue.y != 0;
+        isMoving = moveValue.x != 0 || moveValue.y != 0;
         animator.SetBool("isRunning", isMoving);
         transform.position += movement;
 
