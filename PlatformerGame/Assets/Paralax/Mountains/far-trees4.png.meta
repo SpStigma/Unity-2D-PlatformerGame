@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: acc70d7873e2a2f4aafb6cff66842ae4
+guid: 9a4c47385c581b443b9d11b0fad2bed2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -544596926046422329
-    second: middle-mountains_0
+      213: -1684725475712555481
+    second: far-trees_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,10 +48,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: middle-mountains_0
+      name: far-trees_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 320
-        height: 219
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cabb3d2bf33178f0800000000000000
-      internalID: -544596926046422329
+      spriteID: 7262a1c1b17ae98e0800000000000000
+      internalID: -1684725475712555481
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      middle-mountains_0: -544596926046422329
+      far-trees_0: -1684725475712555481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
