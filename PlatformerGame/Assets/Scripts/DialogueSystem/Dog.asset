@@ -14,4 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - characterName: Dog
-    line: Hi, are u not afraid of the thing in the forest ?
+    line: Hi, aren't you afraid of the thing in the forest?
+  - characterName: Cat
+    line: A thing? What is it? I'm looking for my little brother. Did you see him?
+  - characterName: Dog
+    line: Yes, I saw a little cat deep in the forest. I'm afraid the thing will do
+      something to it. If you want to go search for him, just jump off the cliff
+      to go deeper into the forest.

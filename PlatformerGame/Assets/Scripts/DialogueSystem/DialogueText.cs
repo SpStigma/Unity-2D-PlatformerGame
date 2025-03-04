@@ -79,6 +79,7 @@ public class DialogueText : MonoBehaviour
 
     IEnumerator TypeLine()
     {
+        characterName.text = currentDialogue.dialogueLines[index].characterName;
         foreach (char c in currentDialogue.dialogueLines[index].line.ToCharArray())
         {
             textComponent.text += c;
@@ -92,6 +93,7 @@ public class DialogueText : MonoBehaviour
         {
             index++;
             textComponent.text = "";
+            characterName.text = "";
             StartCoroutine(TypeLine());
         }
         else
