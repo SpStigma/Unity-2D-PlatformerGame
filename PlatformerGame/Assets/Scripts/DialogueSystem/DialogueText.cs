@@ -43,7 +43,6 @@ public class DialogueText : MonoBehaviour
         else
         {
             CheckForSpeaker();
-            OnDrawGizmos();
         }
     }
 
@@ -105,14 +104,5 @@ public class DialogueText : MonoBehaviour
     {
         dialogueUI.SetActive(false);
         isTalking = false;
-    }
-    
-    void OnDrawGizmos()
-    {
-        if (player != null)
-        {
-            Gizmos.color = Color.green; // Couleur de la sphère
-            Gizmos.DrawWireSphere(player.position, detectionRange); // Dessine une sphère filaire
-        }
     }
 }
