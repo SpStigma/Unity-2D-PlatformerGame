@@ -8,68 +8,56 @@ public class AudioMixerController : MonoBehaviour
     public Slider bgmSlider;
     public Slider sfxSlider;
     public Slider volumeSlider;
+    public Button applyButton;
+    public Button cancelButton;
+
+    private float initialBGM, initialSFX, initialMaster;
 
     void Start()
     {
-        float bgmValue, sfxValue, volumeValue;
+        audioMixer.GetFloat("BGMVolume", out initialBGM);
+        audioMixer.GetFloat("SFXVolume", out initialSFX);
+        audioMixer.GetFloat("MasterVolume", out initialMaster);
 
-        if (audioMixer.GetFloat("BGMVolume", out bgmValue))
-        {
-            bgmSlider.value = Mathf.Pow(10, bgmValue / 20);
-        }
-
-        if (audioMixer.GetFloat("SFXVolume", out sfxValue))
-        {
-            sfxSlider.value = Mathf.Pow(10, sfxValue / 20);
-        }
-
-        if(audioMixer.GetFloat("MasterVolume", out volumeValue))
-        {
-            volumeSlider.value = Mathf.Pow(10, volumeValue / 20);
-        }
+        bgmSlider.value = Mathf.Pow(10, initialBGM / 20);
+        sfxSlider.value = Mathf.Pow(10, initialSFX / 20);
+        volumeSlider.value = Mathf.Pow(10, initialMaster / 20);
 
         bgmSlider.onValueChanged.AddListener(SetBGMVolume);
         sfxSlider.onValueChanged.AddListener(SetSFXVolume);
-        volumeSlider.onValueChanged.AddListener(SetVolumeAll);
+        volumeSlider.onValueChanged.AddListener(SetMasterVolume);
+
+        applyButton.onClick.AddListener(ApplyVolumeChanges);
+        cancelButton.onClick.AddListener(CancelVolumeChanges);
     }
 
-    public void SetBGMVolume(float value)
-    {
+    void SetBGMVolume(float value) => SetVolume("BGMVolume", value);
+    void SetSFXVolume(float value) => SetVolume("SFXVolume", value);
+    void SetMasterVolume(float value) => SetVolume("MasterVolume", value);
 
-        if (value <= 0.001f) 
-        {
-            audioMixer.SetFloat("BGMVolume", -80f);
-        }
-        else
-        {
-            float volume = Mathf.Log10(value) * 20;
-            audioMixer.SetFloat("BGMVolume", volume);
-        }
+    void ApplyVolumeChanges()
+    {
+        audioMixer.GetFloat("BGMVolume", out initialBGM);
+        audioMixer.GetFloat("SFXVolume", out initialSFX);
+        audioMixer.GetFloat("MasterVolume", out initialMaster);
     }
 
-    public void SetSFXVolume(float value)
+    void CancelVolumeChanges()
     {
-        if (value <= 0.001f) 
-        {
-            audioMixer.SetFloat("SFXVolume", -80f);
-        }
-        else
-        {
-            float volume = Mathf.Log10(value) * 20;
-            audioMixer.SetFloat("SFXVolume", volume);
-        }
+        SetVolume("BGMVolume", Mathf.Pow(10, initialBGM / 20));
+        SetVolume("SFXVolume", Mathf.Pow(10, initialSFX / 20));
+        SetVolume("MasterVolume", Mathf.Pow(10, initialMaster / 20));
+
+        bgmSlider.value = Mathf.Pow(10, initialBGM / 20);
+        sfxSlider.value = Mathf.Pow(10, initialSFX / 20);
+        volumeSlider.value = Mathf.Pow(10, initialMaster / 20);
     }
 
-    public void SetVolumeAll(float value)
+    void SetVolume(string parameter, float value)
     {
-        if(value <= 0.001f)
-        {
-            audioMixer.SetFloat("MasterVolume", -80f);
-        }
+        if (value <= 0.001f)
+            audioMixer.SetFloat(parameter, -80f);
         else
-        {
-            float volume = Mathf.Log10(value) * 20;
-            audioMixer.SetFloat("MasterVolume", volume);
-        }
+            audioMixer.SetFloat(parameter, Mathf.Log10(value) * 20);
     }
 }

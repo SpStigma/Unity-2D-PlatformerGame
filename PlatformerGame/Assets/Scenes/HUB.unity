@@ -12137,6 +12137,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 58105871}
   speed: 0.8
+  autosSrolling: 0
+  autoScrollSpeed: 1
 --- !u!1 &740206365 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1240660817681089936, guid: 708b30b3b438fca42ae734657b3d0954, type: 3}
@@ -12321,6 +12323,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 58105871}
   speed: 0.2
+  autosSrolling: 0
+  autoScrollSpeed: 1
 --- !u!1 &800914169
 GameObject:
   m_ObjectHideFlags: 0
@@ -12764,6 +12768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 58105871}
   speed: 0.4
+  autosSrolling: 0
+  autoScrollSpeed: 1
 --- !u!1 &1182811799
 GameObject:
   m_ObjectHideFlags: 0
@@ -16612,6 +16618,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 58105871}
   speed: 1
+  autosSrolling: 0
+  autoScrollSpeed: 1
 --- !u!1 &2032536177
 GameObject:
   m_ObjectHideFlags: 0
@@ -16716,6 +16724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 58105871}
   speed: 0.6
+  autosSrolling: 0
+  autoScrollSpeed: 1
 --- !u!1 &2064489701
 GameObject:
   m_ObjectHideFlags: 0
