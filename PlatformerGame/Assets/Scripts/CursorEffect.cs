@@ -33,7 +33,10 @@ public class CursorEffect : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            AudioManager.instance.PlaySFX(0);
+            if(isInMenu)
+            {
+                AudioManager.instance.PlaySFX(0);
+            }
             Cursor.SetCursor(cursorTexture2, hotSpot, cursorMode);
         }
         else if (Input.GetMouseButtonUp(0))

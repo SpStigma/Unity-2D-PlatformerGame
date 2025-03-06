@@ -11774,6 +11774,8 @@ MonoBehaviour:
   bgmSlider: {fileID: 1898261954}
   sfxSlider: {fileID: 1265401729}
   volumeSlider: {fileID: 1566913707}
+  applyButton: {fileID: 0}
+  cancelButton: {fileID: 0}
 --- !u!1 &546399256
 GameObject:
   m_ObjectHideFlags: 0
