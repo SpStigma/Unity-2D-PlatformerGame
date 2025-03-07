@@ -79,7 +79,15 @@ public class DialogueText : MonoBehaviour
 
     IEnumerator TypeLine()
     {
+        if (currentDialogue.dialogueLines[index].font != null)
+        {
+            textComponent.font = currentDialogue.dialogueLines[index].font;
+            characterName.font = currentDialogue.dialogueLines[index].font;
+        }
+
         characterName.text = currentDialogue.dialogueLines[index].characterName;
+
+
         foreach (char c in currentDialogue.dialogueLines[index].line.ToCharArray())
         {
             textComponent.text += c;
