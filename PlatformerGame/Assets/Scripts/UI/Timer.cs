@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
+    public static Timer instance;
     public TextMeshProUGUI timer;
     public float time;
+
+    public void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -2,11 +2,15 @@ using UnityEngine;
 
 public class WinnerCondition : MonoBehaviour
 {
+    public GameObject UIWinner;
+
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Goal"))
         {
-            Debug.Log("hit flag");
+            Time.timeScale = 0;
+            UIWinner.SetActive(true);
+
         }       
     }
 }
