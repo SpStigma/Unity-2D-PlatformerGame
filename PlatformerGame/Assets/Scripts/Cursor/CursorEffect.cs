@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CursorEffect : MonoBehaviour
 {
+    public static CursorEffect instance;
     public Texture2D cursorTexture1;
     public Texture2D cursorTexture2;
     public CursorMode cursorMode = CursorMode.Auto;
@@ -11,6 +12,7 @@ public class CursorEffect : MonoBehaviour
 
     public void Awake()
     {
+        instance = this;
         DontDestroyOnLoad(gameObject);
     }
 
