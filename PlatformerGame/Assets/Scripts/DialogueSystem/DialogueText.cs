@@ -91,6 +91,7 @@ public class DialogueText : MonoBehaviour
         foreach (char c in currentDialogue.dialogueLines[index].line.ToCharArray())
         {
             textComponent.text += c;
+            AudioManager.instance.PlaySFX(1);
             yield return new WaitForSeconds(speedChar);
         }
     }

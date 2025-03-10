@@ -17,7 +17,10 @@ public class WinnerCondition : MonoBehaviour
         {
             stageEnd = true;
             Time.timeScale = 0;
-            UIWinner.SetActive(true);
+            if(UIWinner != null)
+            {
+                UIWinner.SetActive(true);
+            }
             CursorEffect.instance.SetMenuState(true);
 
         }

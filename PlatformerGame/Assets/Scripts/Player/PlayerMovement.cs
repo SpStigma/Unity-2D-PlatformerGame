@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
             }
             if(accelerationCoroutine == null)
             {
-                accelerationCoroutine = StartCoroutine(Acceleration(2, 2));
+                accelerationCoroutine = StartCoroutine(Acceleration(2, .5f));
             }
         }
         else
