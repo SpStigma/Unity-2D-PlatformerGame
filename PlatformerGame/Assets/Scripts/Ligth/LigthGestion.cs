@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using System.Collections;
 
 public class LightGestion : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class LightGestion : MonoBehaviour
     public float newIntensity = 0.3f;
     private float originalIntensity;
     public float transitionSpeed = 1f;
-
+    private Coroutine lightCoroutine;
     private bool isDimming = false;
 
     private void Start()
@@ -22,29 +23,40 @@ public class LightGestion : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            isDimming = true;
-        }
-    }
+            float targetIntensity;
 
-    private void Update()
-    {
-        if (isDimming)
-        {
-            DiminishedIntensityOvertime();
-        }
-    }
-
-    private void DiminishedIntensityOvertime()
-    {
-        if (globalLight != null)
-        {
-            globalLight.intensity = Mathf.Lerp(globalLight.intensity, newIntensity, transitionSpeed * Time.deltaTime);
-
-            if (Mathf.Abs(globalLight.intensity - newIntensity) < 0.01f)
+            if (isDimming)
             {
-                globalLight.intensity = newIntensity;
+                targetIntensity = originalIntensity;
                 isDimming = false;
             }
+            else
+            {
+                targetIntensity = newIntensity;
+                isDimming = true;
+            }
+
+            if (lightCoroutine != null)
+            {
+                StopCoroutine(lightCoroutine);
+            }
+            
+            lightCoroutine = StartCoroutine(DiminishedIntensityOverTime(targetIntensity));
         }
+    }
+
+    private IEnumerator DiminishedIntensityOverTime(float targetIntensity)
+    {
+        float startIntensity = globalLight.intensity;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < 1f)
+        {
+            globalLight.intensity = Mathf.Lerp(startIntensity, targetIntensity, elapsedTime);
+            elapsedTime += Time.deltaTime * transitionSpeed;
+            yield return null;
+        }
+
+        globalLight.intensity = targetIntensity;
     }
 }
