@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float maxSpeed = 8;
     private SpriteRenderer sprite;
     private Animator animator;
-    private bool isGrounded;
+    public bool isGrounded;
     private Rigidbody2D rb;
     public float jumpForce = 5f;
     private Coroutine accelerationCoroutine;

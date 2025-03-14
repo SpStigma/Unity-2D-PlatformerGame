@@ -1,0 +1,3003 @@
+fileFormatVersion: 2
+guid: 1978cb24b73da444da42b623fa1617d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2821361006973083618
+    second: ShapesBlackRough_0
+  - first:
+      213: 6055975971413464228
+    second: ShapesBlackRough_1
+  - first:
+      213: 686068171806446919
+    second: ShapesBlackRough_2
+  - first:
+      213: 4581581577556563360
+    second: ShapesBlackRough_3
+  - first:
+      213: -8663468954805337201
+    second: ShapesBlackRough_4
+  - first:
+      213: 8284221974945079075
+    second: ShapesBlackRough_5
+  - first:
+      213: 8053256069489015927
+    second: ShapesBlackRough_6
+  - first:
+      213: 2036289089204069519
+    second: ShapesBlackRough_7
+  - first:
+      213: 7246572352916105147
+    second: ShapesBlackRough_8
+  - first:
+      213: -1417436085793893386
+    second: ShapesBlackRough_9
+  - first:
+      213: 4538539133538515434
+    second: ShapesBlackRough_10
+  - first:
+      213: 6522436332438897760
+    second: ShapesBlackRough_11
+  - first:
+      213: -8417258070011218666
+    second: ShapesBlackRough_12
+  - first:
+      213: 2744577158709342412
+    second: ShapesBlackRough_13
+  - first:
+      213: -6960567553632781160
+    second: ShapesBlackRough_14
+  - first:
+      213: -4895738705691398340
+    second: ShapesBlackRough_15
+  - first:
+      213: -7549909014356138422
+    second: ShapesBlackRough_16
+  - first:
+      213: 2236717315741429809
+    second: ShapesBlackRough_17
+  - first:
+      213: -867474417614478259
+    second: ShapesBlackRough_18
+  - first:
+      213: -2936184760654230531
+    second: ShapesBlackRough_19
+  - first:
+      213: 393363418613984016
+    second: ShapesBlackRough_20
+  - first:
+      213: 5275011176154345350
+    second: ShapesBlackRough_21
+  - first:
+      213: 1074375430197685263
+    second: ShapesBlackRough_22
+  - first:
+      213: -8871401312875187067
+    second: ShapesBlackRough_23
+  - first:
+      213: -3781504136544802609
+    second: ShapesBlackRough_24
+  - first:
+      213: -1310537450125850090
+    second: ShapesBlackRough_25
+  - first:
+      213: 4753833448418330234
+    second: ShapesBlackRough_26
+  - first:
+      213: 3515177406107601027
+    second: ShapesBlackRough_27
+  - first:
+      213: -544288741204714083
+    second: ShapesBlackRough_28
+  - first:
+      213: -3367110703062658419
+    second: ShapesBlackRough_29
+  - first:
+      213: 5177730268538853392
+    second: ShapesBlackRough_30
+  - first:
+      213: -8892425550319514651
+    second: ShapesBlackRough_31
+  - first:
+      213: -3054650265812634783
+    second: ShapesBlackRough_32
+  - first:
+      213: -1743009937442640982
+    second: ShapesBlackRough_33
+  - first:
+      213: -4439521640850214408
+    second: ShapesBlackRough_34
+  - first:
+      213: -698346786062731634
+    second: ShapesBlackRough_35
+  - first:
+      213: -4300399848789764776
+    second: ShapesBlackRough_36
+  - first:
+      213: 7547421314148576156
+    second: ShapesBlackRough_37
+  - first:
+      213: -2065505114855555545
+    second: ShapesBlackRough_38
+  - first:
+      213: -1095212941840194367
+    second: ShapesBlackRough_39
+  - first:
+      213: 9078808854143657990
+    second: ShapesBlackRough_40
+  - first:
+      213: -8356139877413913097
+    second: ShapesBlackRough_41
+  - first:
+      213: -4926560084769133670
+    second: ShapesBlackRough_42
+  - first:
+      213: -7106076845665407111
+    second: ShapesBlackRough_43
+  - first:
+      213: -2170232848898342650
+    second: ShapesBlackRough_44
+  - first:
+      213: -8592654251341296108
+    second: ShapesBlackRough_45
+  - first:
+      213: 9151216174177717371
+    second: ShapesBlackRough_46
+  - first:
+      213: 9003107099768135772
+    second: ShapesBlackRough_47
+  - first:
+      213: -5184588878245720326
+    second: ShapesBlackRough_48
+  - first:
+      213: -929425948702820110
+    second: ShapesBlackRough_49
+  - first:
+      213: 4132518698174223713
+    second: ShapesBlackRough_50
+  - first:
+      213: -4032437036643637333
+    second: ShapesBlackRough_51
+  - first:
+      213: 7023732023436122157
+    second: ShapesBlackRough_52
+  - first:
+      213: 327663514056909850
+    second: ShapesBlackRough_53
+  - first:
+      213: 4630985054789098617
+    second: ShapesBlackRough_54
+  - first:
+      213: 5138431440457419912
+    second: ShapesBlackRough_55
+  - first:
+      213: -636167485727536500
+    second: ShapesBlackRough_56
+  - first:
+      213: -5588726265197488864
+    second: ShapesBlackRough_57
+  - first:
+      213: -2993066783038576797
+    second: ShapesBlackRough_58
+  - first:
+      213: 5919236357931380043
+    second: ShapesBlackRough_59
+  - first:
+      213: -3046026959088572609
+    second: ShapesBlackRough_60
+  - first:
+      213: -7335733574071781071
+    second: ShapesBlackRough_61
+  - first:
+      213: -4207227554344627219
+    second: ShapesBlackRough_62
+  - first:
+      213: 2035096611811626249
+    second: ShapesBlackRough_63
+  - first:
+      213: -6534106581680482877
+    second: ShapesBlackRough_64
+  - first:
+      213: 894339185721898550
+    second: ShapesBlackRough_65
+  - first:
+      213: 2872930636056485964
+    second: ShapesBlackRough_66
+  - first:
+      213: 7652870391647743945
+    second: ShapesBlackRough_67
+  - first:
+      213: -1949059107188350178
+    second: ShapesBlackRough_68
+  - first:
+      213: 4399905271109195474
+    second: ShapesBlackRough_69
+  - first:
+      213: 3352747613884807082
+    second: ShapesBlackRough_70
+  - first:
+      213: -4281916115752475303
+    second: ShapesBlackRough_71
+  - first:
+      213: 5997051559696075029
+    second: ShapesBlackRough_72
+  - first:
+      213: -3751832304916169250
+    second: ShapesBlackRough_73
+  - first:
+      213: -2327163364792447711
+    second: ShapesBlackRough_74
+  - first:
+      213: 367445318588852199
+    second: ShapesBlackRough_75
+  - first:
+      213: 2779346919473844239
+    second: ShapesBlackRough_76
+  - first:
+      213: -2687271985353814110
+    second: ShapesBlackRough_77
+  - first:
+      213: -847494343495181893
+    second: ShapesBlackRough_78
+  - first:
+      213: -2707360406342035995
+    second: ShapesBlackRough_79
+  - first:
+      213: -5564289466026859280
+    second: ShapesBlackRough_80
+  - first:
+      213: 7280279410097097646
+    second: ShapesBlackRough_81
+  - first:
+      213: 2765679032270402020
+    second: ShapesBlackRough_82
+  - first:
+      213: -4751043936099305912
+    second: ShapesBlackRough_83
+  - first:
+      213: -4731093106537234880
+    second: ShapesBlackRough_84
+  - first:
+      213: -5180033480438727016
+    second: ShapesBlackRough_85
+  - first:
+      213: 7227496485548402382
+    second: ShapesBlackRough_86
+  - first:
+      213: -1031983237450968511
+    second: ShapesBlackRough_87
+  - first:
+      213: -4628593904975562129
+    second: ShapesBlackRough_88
+  - first:
+      213: -7253961213370802192
+    second: ShapesBlackRough_89
+  - first:
+      213: -6629948729482575658
+    second: ShapesBlackRough_90
+  - first:
+      213: -3403284477274208694
+    second: ShapesBlackRough_91
+  - first:
+      213: 676647923826430392
+    second: ShapesBlackRough_92
+  - first:
+      213: -3945469499858053929
+    second: ShapesBlackRough_93
+  - first:
+      213: -3932567397345364350
+    second: ShapesBlackRough_94
+  - first:
+      213: -1439500521853623907
+    second: ShapesBlackRough_95
+  - first:
+      213: -5358591878121086438
+    second: ShapesBlackRough_96
+  - first:
+      213: -6654857700470517483
+    second: ShapesBlackRough_97
+  - first:
+      213: -2571682521933527979
+    second: ShapesBlackRough_98
+  - first:
+      213: 67059423997169534
+    second: ShapesBlackRough_99
+  - first:
+      213: 3129986702071586199
+    second: ShapesBlackRough_100
+  - first:
+      213: -7207015924463180410
+    second: ShapesBlackRough_101
+  - first:
+      213: 618563843437490400
+    second: ShapesBlackRough_102
+  - first:
+      213: -1253608943989834107
+    second: ShapesBlackRough_103
+  - first:
+      213: 3576589468320896682
+    second: ShapesBlackRough_104
+  - first:
+      213: -2257709884801659741
+    second: ShapesBlackRough_105
+  - first:
+      213: 1320865476228102305
+    second: ShapesBlackRough_106
+  - first:
+      213: 9158996049361747438
+    second: ShapesBlackRough_107
+  - first:
+      213: 6023103180475901456
+    second: ShapesBlackRough_108
+  - first:
+      213: 7938020123556368075
+    second: ShapesBlackRough_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShapesBlackRough_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1155
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e102b34cc1388d8d0800000000000000
+      internalID: -2821361006973083618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1155
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a496606f062b0450800000000000000
+      internalID: 6055975971413464228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1166
+        width: 122
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74599380e57658900800000000000000
+      internalID: 686068171806446919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1179
+        width: 121
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a59bb7ab2c059f30800000000000000
+      internalID: 4581581577556563360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1154
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83043af2ec25c780800000000000000
+      internalID: -8663468954805337201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1152
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f16199ef777f270800000000000000
+      internalID: 8284221974945079075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1161
+        width: 122
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cb62b2ab9e2cf60800000000000000
+      internalID: 8053256069489015927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1155
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84230e432a524c10800000000000000
+      internalID: 2036289089204069519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_8
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1163
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb72bb6392ff09460800000000000000
+      internalID: 7246572352916105147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_9
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1160
+        width: 118
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f35f6ec361445ce0800000000000000
+      internalID: -1417436085793893386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1053
+        width: 122
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9b5c5bb412cfe30800000000000000
+      internalID: 4538539133538515434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1044
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0644f197949548a50800000000000000
+      internalID: 6522436332438897760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1057
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615f032c164ef2b80800000000000000
+      internalID: -8417258070011218666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1049
+        width: 122
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0758b6262b61620800000000000000
+      internalID: 2744577158709342412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1044
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cbb9a40b8176f90800000000000000
+      internalID: -6960567553632781160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1037
+        width: 122
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f222ef597de0cb0800000000000000
+      internalID: -4895738705691398340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_16
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1034
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4668c8a0c5593790800000000000000
+      internalID: -7549909014356138422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_17
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1028
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130bbbb4c8a6a0f10800000000000000
+      internalID: 2236717315741429809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_18
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1039
+        width: 107
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44a95efc9c16f3f0800000000000000
+      internalID: -867474417614478259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_19
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1037
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb0a4a44839047d0800000000000000
+      internalID: -2936184760654230531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 899
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bae12f1f1857500800000000000000
+      internalID: 393363418613984016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 920
+        width: 122
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f25ec67ba943940800000000000000
+      internalID: 5275011176154345350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 916
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c2750f2c2f8ee00800000000000000
+      internalID: 1074375430197685263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 909
+        width: 120
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584f326328372e480800000000000000
+      internalID: -8871401312875187067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 904
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8a398e506658bc0800000000000000
+      internalID: -3781504136544802609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_25
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 898
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a0764f12900dde0800000000000000
+      internalID: -1310537450125850090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_26
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 898
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76485e955209f140800000000000000
+      internalID: 4753833448418330234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_27
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 899
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388c5850a3b68c030800000000000000
+      internalID: 3515177406107601027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_28
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 916
+        width: 117
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d9f3d064c4278f0800000000000000
+      internalID: -544288741204714083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_29
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 901
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82d880c7ae9541d0800000000000000
+      internalID: -3367110703062658419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 796
+        width: 122
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018db071f3efad740800000000000000
+      internalID: 5177730268538853392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 868
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb09997312c79480800000000000000
+      internalID: -8892425550319514651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_32
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1637f2974c3bb95d0800000000000000
+      internalID: -3054650265812634783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_33
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 769
+        width: 83
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab61ce52b59fc7e0800000000000000
+      internalID: -1743009937442640982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_34
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 772
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1b678d696a362c0800000000000000
+      internalID: -4439521640850214408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_35
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86f1be4c49fe46f0800000000000000
+      internalID: -698346786062731634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_36
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8551ebc3f19e154c0800000000000000
+      internalID: -4300399848789764776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_37
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 781
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ba90082b3ddb860800000000000000
+      internalID: 7547421314148576156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_38
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 852
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e3843aa0ad553e0800000000000000
+      internalID: -2065505114855555545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_39
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 777
+        width: 105
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c46430d1a50dc0f0800000000000000
+      internalID: -1095212941840194367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 801
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60867ee1d886efd70800000000000000
+      internalID: 9078808854143657990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 809
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd7441ed07090c80800000000000000
+      internalID: -8356139877413913097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 817
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ba7b674b751abb0800000000000000
+      internalID: -4926560084769133670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_43
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 809
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f2c7b22c4226d90800000000000000
+      internalID: -7106076845665407111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 772
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601c789e8b8c1e1e0800000000000000
+      internalID: -2170232848898342650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 643
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e4d07fb72c0c880800000000000000
+      internalID: -8592654251341296108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 643
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c0cac00a6affe70800000000000000
+      internalID: 9151216174177717371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 718
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c502a7ce43671fc70800000000000000
+      internalID: 9003107099768135772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_48
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 733
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe09b562e3ac08b0800000000000000
+      internalID: -5184588878245720326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_49
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 718
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8b98226040a13f0800000000000000
+      internalID: -929425948702820110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 644
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16595586cd7a95930800000000000000
+      internalID: 4132518698174223713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_51
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 645
+        width: 115
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba72ab341e7e908c0800000000000000
+      internalID: -4032437036643637333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_52
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 644
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28127edf0f497160800000000000000
+      internalID: 7023732023436122157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_53
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 650
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14e731ea381c8400800000000000000
+      internalID: 327663514056909850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_54
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 652
+        width: 112
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cd8de0f50944040800000000000000
+      internalID: 4630985054789098617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_55
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 645
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cc927ab206f4740800000000000000
+      internalID: 5138431440457419912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_56
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 644
+        width: 113
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a8e83da01eb27f0800000000000000
+      internalID: -636167485727536500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 694
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0251208721bd072b0800000000000000
+      internalID: -5588726265197488864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 677
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367e6f76e9d7676d0800000000000000
+      internalID: -2993066783038576797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_59
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 694
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4da3182b1a552250800000000000000
+      internalID: 5919236357931380043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_60
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 661
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3723478e965ab5d0800000000000000
+      internalID: -3046026959088572609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_61
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 643
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1397b864e2d323a90800000000000000
+      internalID: -7335733574071781071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_62
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 661
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de39d0684dcec95c0800000000000000
+      internalID: -4207227554344627219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_63
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 523
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d02a6069d1e3c10800000000000000
+      internalID: 2035096611811626249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 515
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c59462eea03255a0800000000000000
+      internalID: -6534106581680482877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_65
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 515
+        width: 81
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6367aa140c4596c00800000000000000
+      internalID: 894339185721898550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_66
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 516
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40eb7a2133bed720800000000000000
+      internalID: 2872930636056485964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_67
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 520
+        width: 119
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfa4461315743a60800000000000000
+      internalID: 7652870391647743945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_68
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 518
+        width: 117
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e136ccd811d83f4e0800000000000000
+      internalID: -1949059107188350178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_69
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 526
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d615d9488a9f0d30800000000000000
+      internalID: 4399905271109195474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_70
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 521
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa77423f03a578e20800000000000000
+      internalID: 3352747613884807082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_71
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 517
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955ad82baf39394c0800000000000000
+      internalID: -4281916115752475303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_72
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 517
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519036bae9ec93350800000000000000
+      internalID: 5997051559696075029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_73
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 387
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddf2a09560deebc0800000000000000
+      internalID: -3751832304916169250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_74
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 388
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d4e33ef3144bfd0800000000000000
+      internalID: -2327163364792447711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_75
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 385
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e76ed8029d691500800000000000000
+      internalID: 367445318588852199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_76
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 387
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0090d23c49329620800000000000000
+      internalID: 2779346919473844239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_77
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 391
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af802afd54e4bad0800000000000000
+      internalID: -2687271985353814110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_78
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 396
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb911d282681d34f0800000000000000
+      internalID: -847494343495181893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_79
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 395
+        width: 121
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5960dfd068d6ad0800000000000000
+      internalID: -2707360406342035995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_80
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 387
+        width: 110
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f46506263ca7c2b0800000000000000
+      internalID: -5564289466026859280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_81
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 394
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab8d680d8fb80560800000000000000
+      internalID: 7280279410097097646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_82
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 402
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e139393d6aa16620800000000000000
+      internalID: 2765679032270402020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_83
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 259
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846f68456b6e01eb0800000000000000
+      internalID: -4751043936099305912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_84
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 259
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e7c81d2e7c75eb0800000000000000
+      internalID: -4731093106537234880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_85
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 265
+        width: 125
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eb1d99ef2dc18b0800000000000000
+      internalID: -5180033480438727016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_86
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 260
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec62f7cb2c93d4460800000000000000
+      internalID: 7227496485548402382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_87
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 262
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142d39596b8ada1f0800000000000000
+      internalID: -1031983237450968511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_88
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 262
+        width: 111
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ab464ed5ee3cfb0800000000000000
+      internalID: -4628593904975562129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_89
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 265
+        width: 114
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff5296a5b0c45b90800000000000000
+      internalID: -7253961213370802192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_90
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 263
+        width: 122
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0832ce1c0bdf3a0800000000000000
+      internalID: -6629948729482575658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_91
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 272
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46487e9cca15c0d0800000000000000
+      internalID: -3403284477274208694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_92
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 261
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b11ea1a3bfe36900800000000000000
+      internalID: 676647923826430392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_93
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 326
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d492d4d460ee39c0800000000000000
+      internalID: -3945469499858053929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_94
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 154
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28672f9a9c6bc69c0800000000000000
+      internalID: -3932567397345364350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_95
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 140
+        width: 122
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91ece4f6edd50ce0800000000000000
+      internalID: -1439500521853623907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_96
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 138
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12ac40f31572a5b0800000000000000
+      internalID: -5358591878121086438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_97
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 210
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5119eac2e2235a3a0800000000000000
+      internalID: -6654857700470517483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_98
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 135
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55442152f5c8f4cd0800000000000000
+      internalID: -2571682521933527979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_99
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 135
+        width: 111
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f813ad03e3ee000800000000000000
+      internalID: 67059423997169534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_100
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 134
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d5ca87252ff6b20800000000000000
+      internalID: 3129986702071586199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_101
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 187
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685e9cb73398bfb90800000000000000
+      internalID: -7207015924463180410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0fdfec984959800800000000000000
+      internalID: 618563843437490400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 135
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ebb3eae494a9ee0800000000000000
+      internalID: -1253608943989834107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_104
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa69baefb2992a130800000000000000
+      internalID: 3576589468320896682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_105
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 12
+        width: 118
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac428652d00ba0e0800000000000000
+      internalID: -2257709884801659741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 9
+        width: 115
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a837a20728a45210800000000000000
+      internalID: 1320865476228102305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_107
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 7
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedb965616a4b1f70800000000000000
+      internalID: 9158996049361747438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016aacd4e6c569350800000000000000
+      internalID: 6023103180475901456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesBlackRough_109
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 6
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bceca74be33892e60800000000000000
+      internalID: 7938020123556368075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShapesBlackRough_0: -2821361006973083618
+      ShapesBlackRough_1: 6055975971413464228
+      ShapesBlackRough_10: 4538539133538515434
+      ShapesBlackRough_100: 3129986702071586199
+      ShapesBlackRough_101: -7207015924463180410
+      ShapesBlackRough_102: 618563843437490400
+      ShapesBlackRough_103: -1253608943989834107
+      ShapesBlackRough_104: 3576589468320896682
+      ShapesBlackRough_105: -2257709884801659741
+      ShapesBlackRough_106: 1320865476228102305
+      ShapesBlackRough_107: 9158996049361747438
+      ShapesBlackRough_108: 6023103180475901456
+      ShapesBlackRough_109: 7938020123556368075
+      ShapesBlackRough_11: 6522436332438897760
+      ShapesBlackRough_12: -8417258070011218666
+      ShapesBlackRough_13: 2744577158709342412
+      ShapesBlackRough_14: -6960567553632781160
+      ShapesBlackRough_15: -4895738705691398340
+      ShapesBlackRough_16: -7549909014356138422
+      ShapesBlackRough_17: 2236717315741429809
+      ShapesBlackRough_18: -867474417614478259
+      ShapesBlackRough_19: -2936184760654230531
+      ShapesBlackRough_2: 686068171806446919
+      ShapesBlackRough_20: 393363418613984016
+      ShapesBlackRough_21: 5275011176154345350
+      ShapesBlackRough_22: 1074375430197685263
+      ShapesBlackRough_23: -8871401312875187067
+      ShapesBlackRough_24: -3781504136544802609
+      ShapesBlackRough_25: -1310537450125850090
+      ShapesBlackRough_26: 4753833448418330234
+      ShapesBlackRough_27: 3515177406107601027
+      ShapesBlackRough_28: -544288741204714083
+      ShapesBlackRough_29: -3367110703062658419
+      ShapesBlackRough_3: 4581581577556563360
+      ShapesBlackRough_30: 5177730268538853392
+      ShapesBlackRough_31: -8892425550319514651
+      ShapesBlackRough_32: -3054650265812634783
+      ShapesBlackRough_33: -1743009937442640982
+      ShapesBlackRough_34: -4439521640850214408
+      ShapesBlackRough_35: -698346786062731634
+      ShapesBlackRough_36: -4300399848789764776
+      ShapesBlackRough_37: 7547421314148576156
+      ShapesBlackRough_38: -2065505114855555545
+      ShapesBlackRough_39: -1095212941840194367
+      ShapesBlackRough_4: -8663468954805337201
+      ShapesBlackRough_40: 9078808854143657990
+      ShapesBlackRough_41: -8356139877413913097
+      ShapesBlackRough_42: -4926560084769133670
+      ShapesBlackRough_43: -7106076845665407111
+      ShapesBlackRough_44: -2170232848898342650
+      ShapesBlackRough_45: -8592654251341296108
+      ShapesBlackRough_46: 9151216174177717371
+      ShapesBlackRough_47: 9003107099768135772
+      ShapesBlackRough_48: -5184588878245720326
+      ShapesBlackRough_49: -929425948702820110
+      ShapesBlackRough_5: 8284221974945079075
+      ShapesBlackRough_50: 4132518698174223713
+      ShapesBlackRough_51: -4032437036643637333
+      ShapesBlackRough_52: 7023732023436122157
+      ShapesBlackRough_53: 327663514056909850
+      ShapesBlackRough_54: 4630985054789098617
+      ShapesBlackRough_55: 5138431440457419912
+      ShapesBlackRough_56: -636167485727536500
+      ShapesBlackRough_57: -5588726265197488864
+      ShapesBlackRough_58: -2993066783038576797
+      ShapesBlackRough_59: 5919236357931380043
+      ShapesBlackRough_6: 8053256069489015927
+      ShapesBlackRough_60: -3046026959088572609
+      ShapesBlackRough_61: -7335733574071781071
+      ShapesBlackRough_62: -4207227554344627219
+      ShapesBlackRough_63: 2035096611811626249
+      ShapesBlackRough_64: -6534106581680482877
+      ShapesBlackRough_65: 894339185721898550
+      ShapesBlackRough_66: 2872930636056485964
+      ShapesBlackRough_67: 7652870391647743945
+      ShapesBlackRough_68: -1949059107188350178
+      ShapesBlackRough_69: 4399905271109195474
+      ShapesBlackRough_7: 2036289089204069519
+      ShapesBlackRough_70: 3352747613884807082
+      ShapesBlackRough_71: -4281916115752475303
+      ShapesBlackRough_72: 5997051559696075029
+      ShapesBlackRough_73: -3751832304916169250
+      ShapesBlackRough_74: -2327163364792447711
+      ShapesBlackRough_75: 367445318588852199
+      ShapesBlackRough_76: 2779346919473844239
+      ShapesBlackRough_77: -2687271985353814110
+      ShapesBlackRough_78: -847494343495181893
+      ShapesBlackRough_79: -2707360406342035995
+      ShapesBlackRough_8: 7246572352916105147
+      ShapesBlackRough_80: -5564289466026859280
+      ShapesBlackRough_81: 7280279410097097646
+      ShapesBlackRough_82: 2765679032270402020
+      ShapesBlackRough_83: -4751043936099305912
+      ShapesBlackRough_84: -4731093106537234880
+      ShapesBlackRough_85: -5180033480438727016
+      ShapesBlackRough_86: 7227496485548402382
+      ShapesBlackRough_87: -1031983237450968511
+      ShapesBlackRough_88: -4628593904975562129
+      ShapesBlackRough_89: -7253961213370802192
+      ShapesBlackRough_9: -1417436085793893386
+      ShapesBlackRough_90: -6629948729482575658
+      ShapesBlackRough_91: -3403284477274208694
+      ShapesBlackRough_92: 676647923826430392
+      ShapesBlackRough_93: -3945469499858053929
+      ShapesBlackRough_94: -3932567397345364350
+      ShapesBlackRough_95: -1439500521853623907
+      ShapesBlackRough_96: -5358591878121086438
+      ShapesBlackRough_97: -6654857700470517483
+      ShapesBlackRough_98: -2571682521933527979
+      ShapesBlackRough_99: 67059423997169534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
