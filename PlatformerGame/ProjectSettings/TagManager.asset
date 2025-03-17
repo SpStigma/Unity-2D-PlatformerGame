@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: soleil
+    uniqueID: 688235223
+    locked: 0
   - name: background
     uniqueID: 2758574955
     locked: 0

@@ -1,15 +1,14 @@
-using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
-    public int[] sceneIndex;
+    public Animator animator;
 
     public void GoToSceneIndex(int index)
     {
-        SceneManager.LoadScene(index);
-        Time.timeScale = 1;
+        StartCoroutine(CrossFade(index));
     }
 
     public void QuitGame()
@@ -19,7 +18,18 @@ public class SceneManagement : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        StartCoroutine(CrossFade(SceneManager.GetActiveScene().buildIndex));
+    }
+
+    private IEnumerator CrossFade(int sceneIndex)
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("Start");
+            yield return new WaitForSeconds(1f);
+        }
+
         Time.timeScale = 1;
+        SceneManager.LoadScene(sceneIndex);
     }
 }
