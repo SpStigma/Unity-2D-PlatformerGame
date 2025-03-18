@@ -3,36 +3,50 @@ using UnityEngine;
 public class Parallax : MonoBehaviour
 {
     public GameObject cam;
-    private float length, startpos;
+    private float lengthX, startposX;
+    private float heightY, startposY;
     public float speed;
-    public bool autosSrolling = false;
+    public bool autoScrolling = false;
     public float autoScrollSpeed = 1f;
 
     public void Start()
     {
-        startpos = transform.position.x;
-        length = GetComponent<SpriteRenderer>().bounds.size.x;
+        startposX = transform.position.x;
+        startposY = transform.position.y;
+        lengthX = GetComponent<SpriteRenderer>().bounds.size.x;
+        heightY = GetComponent<SpriteRenderer>().bounds.size.y;
     }
 
     public void LateUpdate()
     {
-        float temp = (cam.transform.position.x * (1 - speed));
-        float dist = (cam.transform.position.x * speed);
+        float tempX = (cam.transform.position.x * (1 - speed));
+        float distX = (cam.transform.position.x * speed);
+        float tempY = (cam.transform.position.y * (1 - speed));
+        float distY = (cam.transform.position.y * speed);
 
-        if(autosSrolling)
+        if (autoScrolling)
         {
-            startpos -= autoScrollSpeed * Time.deltaTime;
+            startposX -= autoScrollSpeed * Time.deltaTime;
         }
 
-        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
+        transform.position = new Vector3(startposX + distX, startposY + distY, transform.position.z);
 
-        if(temp > startpos + length)
+        if (tempX > startposX + lengthX)
         {
-            startpos += length;
+            startposX += lengthX;
         }
-        else if(temp < startpos - length)
+        else if (tempX < startposX - lengthX)
         {
-            startpos -= length;
+            startposX -= lengthX;
+        }
+
+        if (tempY > startposY + heightY)
+        {
+            startposY += heightY;
+        }
+        else if (tempY < startposY - heightY)
+        {
+            startposY -= heightY;
         }
     }
 }
