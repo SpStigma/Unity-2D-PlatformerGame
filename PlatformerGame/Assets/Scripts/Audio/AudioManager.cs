@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class AudioManager : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class AudioManager : MonoBehaviour
 
     private AudioSource bgmSource;
     private AudioSource sfxSource;
+
+    private Dictionary<string, int> sceneBGMMap = new Dictionary<string, int>();
 
     private void Awake()
     {
@@ -26,13 +30,28 @@ public class AudioManager : MonoBehaviour
 
         bgmSource = transform.Find("BGM").GetComponent<AudioSource>();
         sfxSource = transform.Find("SFX").GetComponent<AudioSource>();
+
+        sceneBGMMap.Add("Start", 0);
+        sceneBGMMap.Add("HUB", 1);
+        sceneBGMMap.Add("Game 01", 1);
+        sceneBGMMap.Add("Game 02", 2);
     }
 
-    public void Start()
+    private void OnEnable()
     {
-        if(bgmClips.Length > 0)
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (sceneBGMMap.TryGetValue(scene.name, out int bgmIndex))
         {
-            PlayBGM(0);
+            PlayBGM(bgmIndex);
         }
     }
 
@@ -60,9 +79,7 @@ public class AudioManager : MonoBehaviour
         }
 
         sfxSource.pitch = Random.Range(0.9f, 1.1f);
-
         sfxSource.PlayOneShot(sfxClips[index]);
-
         sfxSource.pitch = 1.0f;
     }
 
@@ -70,7 +87,6 @@ public class AudioManager : MonoBehaviour
     {
         bgmSource.Stop();
     }
-
 
     public void StopAllSounds()
     {
