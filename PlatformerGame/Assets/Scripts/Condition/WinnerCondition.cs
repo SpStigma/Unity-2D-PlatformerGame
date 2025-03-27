@@ -21,7 +21,10 @@ public class WinnerCondition : MonoBehaviour
             {
                 UIWinner.SetActive(true);
             }
-            CursorEffect.instance.SetMenuState(true);
+            if(CursorEffect.instance != null)
+            {
+                CursorEffect.instance.SetMenuState(true);
+            }
 
         }
         else

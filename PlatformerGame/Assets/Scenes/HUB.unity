@@ -41288,7 +41288,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSettings: {fileID: 497413366}
-  menuIsOpen: 0
 --- !u!4 &1845234950
 Transform:
   m_ObjectHideFlags: 0

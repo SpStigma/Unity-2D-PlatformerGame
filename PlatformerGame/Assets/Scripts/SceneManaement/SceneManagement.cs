@@ -8,7 +8,10 @@ public class SceneManagement : MonoBehaviour
 
     public void GoToSceneIndex(int index)
     {
-        CursorEffect.instance.SetMenuState(false);
+        if(CursorEffect.instance != null)
+        {
+            CursorEffect.instance.SetMenuState(false);
+        }
         StartCoroutine(CrossFade(index));
     }
 
@@ -19,7 +22,10 @@ public class SceneManagement : MonoBehaviour
 
     public void Retry()
     {
-        CursorEffect.instance.SetMenuState(false);
+        if(CursorEffect.instance != null)
+        {
+            CursorEffect.instance.SetMenuState(false);
+        }
         StartCoroutine(CrossFade(SceneManager.GetActiveScene().buildIndex));
     }
 
