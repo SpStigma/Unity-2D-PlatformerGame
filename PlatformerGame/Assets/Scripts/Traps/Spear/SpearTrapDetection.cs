@@ -14,7 +14,7 @@ public class SpearTrapDetection : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            animator.SetBool("isAttack", true);
+            StartCoroutine(SetAttack());
             StartCoroutine(ResetTriggerAnimation());
         }
     }
@@ -23,5 +23,11 @@ public class SpearTrapDetection : MonoBehaviour
     {
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         animator.SetBool("isAttack", false);
+    }
+
+    private IEnumerator SetAttack()
+    {
+        yield return new WaitForSeconds(.5f);
+        animator.SetBool("isAttack", true);
     }
 }

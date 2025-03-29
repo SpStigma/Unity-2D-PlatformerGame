@@ -33,7 +33,7 @@ public class Spike : MonoBehaviour
 
     private IEnumerator ActivateTrap()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.5f);
         animator.SetTrigger("Attack");
 
         if (playerInTrap && playerCollider != null)
